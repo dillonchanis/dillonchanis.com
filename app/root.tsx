@@ -12,7 +12,10 @@ import Navbar from "./components/Navbar";
 import styles from "./tailwind.css";
 
 export const meta: MetaFunction = () => {
-  return { title: "Dillon Chanis" };
+  return {
+    title: "Dillon Chanis",
+    description: "Dillon Chanis is a software engineer helping teams scale their frontend architecture."
+  };
 };
 
 export const links: LinksFunction = () => {
