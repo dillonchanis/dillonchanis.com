@@ -31,7 +31,7 @@ export default function App() {
         <Meta />
         <Links />
       </head>
-      <body className="pb-20 font-sans antialiased">
+      <body className="pb-20 font-sans antialiased bg-white dark:bg-slate-900">
         <Navbar />
         <main
           id="content"

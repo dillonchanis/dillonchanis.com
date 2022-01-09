@@ -13,13 +13,13 @@ interface NavbarLinkProps {
 const NavbarLink = ({ to, children }: NavbarLinkProps) => (
   <NavLink
     to={to}
-    className="rounded-sm text-slate-600 hover:underline decoration-violet-400 decoration-dotted decoration-2 underline-offset-4 hover:text-slate-900 focus:ring-violet-400 focus:ring-2 focus:ring-offset-4 focus:outline-none focus:text-slate-900"
+    className="rounded-sm text-slate-600 dark:text-slate-300 hover:underline decoration-violet-400 decoration-dotted decoration-2 underline-offset-4 hover:text-slate-900 focus:ring-violet-400 focus:ring-2 focus:ring-offset-4 focus:outline-none focus:text-slate-900 hover:dark:text-white focus:dark:text-white"
   >
     {({ isActive }) => (
       <span
         className={
           isActive
-            ? "font-semibold underline decoration-violet-400 decoration-dotted decoration-2 underline-offset-4 text-slate-900"
+            ? "font-semibold underline decoration-violet-400 decoration-dotted decoration-2 underline-offset-4 text-slate-900 dark:text-white"
             : undefined
         }
       >
@@ -31,7 +31,7 @@ const NavbarLink = ({ to, children }: NavbarLinkProps) => (
 
 const MobileMenu = () => (
   <Menu as="div" className="relative block sm:hidden">
-    <Menu.Button className="inline-flex justify-center px-2 py-2 text-sm font-medium bg-white border border-gray-100 rounded-md text-slate-700 hover:bg-slate-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-slate-100 focus:ring-violet-500">
+    <Menu.Button className="inline-flex justify-center px-2 py-2 text-sm font-medium bg-white border border-gray-100 rounded-md dark:bg-slate-900 text-slate-700 dark:text-slate-100 hover:bg-slate-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-slate-100 focus:ring-violet-500 dark:border-slate-600 hover:dark:bg-slate-600">
       <MenuAlt3Icon className="w-5 h-5" />
       <span className="sr-only">Toggle Menu</span>
     </Menu.Button>
@@ -44,11 +44,11 @@ const MobileMenu = () => (
       leaveFrom="transform scale-100 opacity-100"
       leaveTo="transform scale-95 opacity-0"
     >
-      <Menu.Items className="absolute right-0 w-56 mt-2 origin-top-right bg-white rounded-md shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none">
+      <Menu.Items className="absolute right-0 w-56 mt-2 origin-top-right bg-white border border-transparent rounded-md shadow-lg dark:bg-slate-900 ring-1 ring-black ring-opacity-5 dark:border-slate-600">
         <Menu.Item>
           <Link
             to="/"
-            className="block px-4 py-2 text-base text-slate-700 focus:text-violet-600 focus:bg-violet-50 hover:text-violet-600 hover:bg-violet-50"
+            className="block px-4 py-2 text-base rounded-tl-md rounded-tr-md text-slate-700 dark:text-slate-100 focus:text-violet-600 focus:bg-violet-50 hover:text-violet-600 hover:bg-violet-50 hover:dark:bg-slate-800 hover:dark:text-violet-50"
           >
             Home
           </Link>
@@ -56,7 +56,7 @@ const MobileMenu = () => (
         <Menu.Item>
           <Link
             to="/blog"
-            className="block px-4 py-2 text-base text-slate-700 focus:text-violet-600 focus:bg-violet-50 hover:text-violet-600 hover:bg-violet-50"
+            className="block px-4 py-2 text-base text-slate-700 dark:text-slate-100 focus:text-violet-600 focus:bg-violet-50 hover:text-violet-600 hover:bg-violet-50 hover:dark:bg-slate-800 hover:dark:text-violet-50"
           >
             Blog
           </Link>
@@ -64,7 +64,7 @@ const MobileMenu = () => (
         <Menu.Item>
           <Link
             to="/contact"
-            className="block px-4 py-2 text-base text-slate-700 focus:text-violet-600 focus:bg-violet-50 hover:text-violet-600 hover:bg-violet-50"
+            className="block px-4 py-2 text-base rounded-bl-md rounded-br-md text-slate-700 dark:text-slate-100 focus:text-violet-600 focus:bg-violet-50 hover:text-violet-600 hover:bg-violet-50 hover:dark:bg-slate-800 hover:dark:text-violet-50"
           >
             Contact
           </Link>
@@ -99,6 +99,7 @@ export default function Navbar() {
               href="https://github.com/dillonchanis"
               target="_blank"
               rel="noopener noreferrer"
+              className="rounded-sm text-slate-600 dark:text-slate-300 hover:underline decoration-violet-400 decoration-dotted decoration-2 underline-offset-4 hover:text-slate-900 focus:ring-violet-400 focus:ring-2 focus:ring-offset-4 focus:outline-none focus:text-slate-900 hover:dark:text-white focus:dark:text-white"
             >
               GitHub
             </a>
