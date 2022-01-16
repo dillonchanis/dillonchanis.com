@@ -5,7 +5,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        sans: ['Work Sans', 'monospace'],
+        sans: ['Work Sans', ...defaultTheme.fontFamily.sans],
       },
     },
   },

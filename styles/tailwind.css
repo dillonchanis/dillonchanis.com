@@ -28,18 +28,3 @@
     font-display: swap;
   }
 }
-
-.nav__link::after {
-  content: attr(data-text);
-  content: attr(data-text) / "";
-  height: 0;
-  visibility: hidden;
-  overflow: hidden;
-  user-select: none;
-  pointer-events: none;
-  font-weight: 600;
-
-  @media speech {
-    display: none;
-  }
-}
