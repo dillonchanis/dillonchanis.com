@@ -13,7 +13,7 @@ interface NavbarLinkProps {
 const NavbarLink = ({ to, children }: NavbarLinkProps) => (
   <NavLink
     to={to}
-    className="rounded-sm text-slate-600 dark:text-slate-300 hover:underline decoration-violet-400 decoration-dotted decoration-2 underline-offset-4 hover:text-slate-900 focus:ring-violet-400 focus:ring-2 focus:ring-offset-4 focus:outline-none focus:text-slate-900 hover:dark:text-white focus:dark:text-white"
+    className="text-slate-600 dark:text-slate-300 hover:underline decoration-violet-400 decoration-dotted decoration-2 underline-offset-4 hover:text-slate-900 focus:underline focus:outline-none focus:text-slate-900 hover:dark:text-white focus:dark:text-white"
   >
     {({ isActive }) => (
       <span
@@ -99,7 +99,7 @@ export default function Navbar() {
               href="https://github.com/dillonchanis"
               target="_blank"
               rel="noopener noreferrer"
-              className="rounded-sm text-slate-600 dark:text-slate-300 hover:underline decoration-violet-400 decoration-dotted decoration-2 underline-offset-4 hover:text-slate-900 focus:ring-violet-400 focus:ring-2 focus:ring-offset-4 focus:outline-none focus:text-slate-900 hover:dark:text-white focus:dark:text-white"
+              className="rounded-sm text-slate-600 dark:text-slate-300 hover:underline decoration-violet-400 decoration-dotted decoration-2 underline-offset-4 hover:text-slate-900 focus:underline focus:outline-none focus:text-slate-900 hover:dark:text-white focus:dark:text-white"
             >
               GitHub
             </a>
