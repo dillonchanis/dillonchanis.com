@@ -6,7 +6,7 @@ export default function Index() {
       <header>
         <Title>Dillon Chanis</Title>
         <Paragraph className="text-slate-500 dark:text-slate-400 mt-1 ml-0.5">
-          Software Engineer
+          Senior Software Engineer
         </Paragraph>
       </header>
 
