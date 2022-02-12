@@ -1,4 +1,4 @@
-import { Title, Paragraph } from "../components/Typography";
+import { Title, Paragraph } from "~/components/Typography";
 
 export default function Blog() {
   return (
