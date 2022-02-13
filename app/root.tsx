@@ -14,7 +14,8 @@ import styles from "./tailwind.css";
 export const meta: MetaFunction = () => {
   return {
     title: "Dillon Chanis",
-    description: "Dillon Chanis is a software engineer helping teams scale their frontend architecture."
+    description:
+      "Dillon Chanis is a software engineer helping teams scale their frontend architecture.",
   };
 };
 
@@ -31,11 +32,11 @@ export default function App() {
         <Meta />
         <Links />
       </head>
-      <body className="pb-20 font-sans antialiased bg-white dark:bg-slate-900">
+      <body className="bg-white pb-20 font-sans antialiased dark:bg-slate-900">
         <Navbar />
         <main
           id="content"
-          className="max-w-2xl px-6 pt-12 mx-auto sm:pt-32 sm:px-8"
+          className="mx-auto max-w-2xl px-6 pt-12 sm:px-8 sm:pt-32"
         >
           <Outlet />
         </main>

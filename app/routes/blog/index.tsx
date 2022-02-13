@@ -19,7 +19,7 @@ export default function Blog() {
               href="https://medium.com/@dillonchanis/handling-errors-in-vue-with-error-boundaries-91f6ead0093b"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-xl font-semibold hover:underline text-slate-700 dark:text-slate-300 hover:text-violet-500 hover:dark:text-violet-400 decoration-violet-400 decoration-dotted decoration-2 underline-offset-2"
+              className="text-xl font-semibold text-slate-700 decoration-violet-400 decoration-dotted decoration-2 underline-offset-2 hover:text-violet-500 hover:underline dark:text-slate-300 hover:dark:text-violet-400"
             >
               Handling Errors in Vue with Error Boundaries
             </a>
@@ -33,7 +33,7 @@ export default function Blog() {
               href="https://medium.com/@dillonchanis/leveraging-render-props-in-vue-7eb9a19c262d"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-xl font-semibold hover:underline text-slate-700 dark:text-slate-300 hover:text-violet-500 hover:dark:text-violet-400 decoration-violet-400 decoration-dotted decoration-2 underline-offset-2"
+              className="text-xl font-semibold text-slate-700 decoration-violet-400 decoration-dotted decoration-2 underline-offset-2 hover:text-violet-500 hover:underline dark:text-slate-300 hover:dark:text-violet-400"
             >
               Leveraging Render Props in Vue
             </a>

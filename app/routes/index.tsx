@@ -5,7 +5,7 @@ export default function Index() {
     <div>
       <header>
         <Title>Dillon Chanis</Title>
-        <Paragraph className="text-slate-500 dark:text-slate-400 mt-1 ml-0.5">
+        <Paragraph className="mt-1 ml-0.5 text-slate-500 dark:text-slate-400">
           Senior Software Engineer
         </Paragraph>
       </header>
@@ -22,7 +22,7 @@ export default function Index() {
           Here are some of the tech I love working with.
         </Paragraph>
 
-        <ul className="grid grid-cols-2 pb-6 list-disc list-inside text-slate-700 dark:text-slate-300">
+        <ul className="grid list-inside list-disc grid-cols-2 pb-6 text-slate-700 dark:text-slate-300">
           <li>Remix</li>
           <li>Tailwind</li>
           <li>Next.js</li>
@@ -42,7 +42,7 @@ export default function Index() {
         <Paragraph className="pb-6">
           If you want to get in touch with me just{" "}
           <a
-            className="underline text-violet-500 dark:text-violet-300 hover:text-violet-400 decoration-violet-400 dark:decoration-violet-300 decoration-dotted decoration-2 underline-offset-2"
+            className="text-violet-500 underline decoration-violet-400 decoration-dotted decoration-2 underline-offset-2 hover:text-violet-400 dark:text-violet-300 dark:decoration-violet-300"
             href="mailto:dillonchanis92@gmail.com"
           >
             send me an email
