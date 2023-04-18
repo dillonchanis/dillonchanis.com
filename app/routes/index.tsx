@@ -12,8 +12,7 @@ export default function Index() {
 
       <div className="mt-12">
         <Paragraph className="pb-6">
-          Hello, all! I am a self taught software engineer based in Rhode
-          Island. I have many years of experience helping teams scale their
+          Hello, all! I am a self taught software engineer based in North Carolina. I have many years of experience helping teams scale their
           front-end architecture. I love collaborating with other passionate
           developers on new ideas and projects.
         </Paragraph>
