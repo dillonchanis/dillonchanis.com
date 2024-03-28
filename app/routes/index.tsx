@@ -24,8 +24,7 @@ export default function Index() {
         <ul className="grid grid-cols-2 pb-6 list-disc list-inside text-slate-700 dark:text-slate-300">
           <li>Remix</li>
           <li>Tailwind</li>
-          <li>Next.js</li>
-          <li>Vue 3</li>
+          <li>Nuxt / Vue 3</li>
           <li>NX</li>
           <li>Cloudflare</li>
           <li>TypeScript</li>
